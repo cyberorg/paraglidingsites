@@ -21,3 +21,20 @@ a {
   color: #007bff;
 }
 
+.button {
+  display: inline-block;
+  background-color: #4CAF50; /* Set the background color */
+  border: none; /* Remove the border */
+  color: white; /* Set the text color */
+  padding: 10px 20px; /* Set the padding */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Set font size */
+  cursor: pointer; /* Add cursor on hover */
+  border-radius: 5px; /* Round the corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow */
+}
+
+.button:hover {
+  background-color: #3e8e41; /* Darken the background color on hover */
+}

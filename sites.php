@@ -19,6 +19,7 @@
 			}
 			echo "<h1>Paragliding Sites in $country_name</h1>";
 		?>
+		<a href="generate_kml.php?country=<?php echo $iso_code; ?>" class="button">Download KML</a><br>
 		<table>
 			<tr>
 				<th>#</th>
