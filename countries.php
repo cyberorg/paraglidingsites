@@ -17,7 +17,7 @@
 		echo "<option value=\"$iso_code\" $selected>$country_data</option>";
 	}
 	echo '</select>';
-	echo '<button type="submit">Submit</button>';
+	echo '<button class=button type="submit">Submit</button>';
 	echo '</form>';
 ?>
 
