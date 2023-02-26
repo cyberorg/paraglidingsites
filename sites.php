@@ -26,9 +26,8 @@
 				<th>Name</th>
 				<th>Description</th>
 				<th>Altitude</th>
-				<th>Latitude</th>
-				<th>Longitude</th>
-				<th>Link</th>
+				<th>Google Map</th>
+				<th>Paragliding Earth</th>
 			</tr>
 			<?php
 				$url = "http://www.paraglidingearth.com/api/geojson/getCountrySites.php?iso=$iso_code";
@@ -51,9 +50,8 @@
 					echo "<td>$name</td>";
 					echo "<td>$description</td>";
 					echo "<td>$altitude</td>";
-					echo "<td>$latitude</td>";
-					echo "<td>$longitude</td>";
-					echo "<td><a href=\"$link\">Link</a></td>";
+					echo "<td><a href=https://www.google.com/maps/place/$latitude,$longitude>$latitude,$longitude</a></td>";
+					echo "<td><a href=\"$link\">PE Link</a></td>";
 					echo "</tr>";
 					$count++;
 				}

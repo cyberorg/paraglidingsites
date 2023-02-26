@@ -7,7 +7,7 @@
 
 	$selected_country = isset($_GET['country']) ? $_GET['country'] : '';
 
-	echo '<form action="sites.php" method="GET">';
+	echo '<form class=button action="sites.php" method="GET">';
 	echo '<label for="country">Select a country:</label>';
 	echo '<select name="country" id="country">';
 	foreach ($country_data as $country) {
