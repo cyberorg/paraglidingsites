@@ -5,9 +5,9 @@
 		return strcmp($a['name']['common'], $b['name']['common']);
 	});
 
-	$selected_country = isset($_GET['country']) ? $_GET['country'] : '';
+	$selected_country = isset($_GET['country']) ? $_GET['country'] : 'in';
 
-	echo '<form class=button action="sites.php" method="GET">';
+	echo '<form class=button action="index.php" method="GET">';
 	echo '<label for="country">Select a country:</label>';
 	echo '<select name="country" id="country">';
 	foreach ($country_data as $country) {
@@ -19,5 +19,10 @@
 	echo '</select>';
 	echo '<button class=button type="submit">Submit</button>';
 	echo '</form>';
-?>
+	// Add the button to load the map
+echo '<form class=button action="sites.php" method="GET">';
+echo '<input type="hidden" name="country" value="' . $selected_country . '">';
+echo '<button class=button type="submit">List</button>';
+echo '</form>';
 
+?>

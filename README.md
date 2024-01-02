@@ -17,3 +17,4 @@ Create separate small files for index.php, table.php, style.css and countries.ph
 ```
 
 http://paraglidingsites.rf.gd/sites.php?country=in
+
