@@ -16,5 +16,5 @@ include sequence number, Name, parameter takeoff_description as Description, par
 Create separate small files for index.php, table.php, style.css and countries.php.
 ```
 
-http://paraglidingsites.rf.gd/sites.php?country=in
+http://paraglidingsites.rf.gd/
 
